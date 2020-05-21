@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UFT-8">
+        <title>Escala RGB</title>
+        <link rel="stylesheet" href="./style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    </head>
+    <body>
+            <form>
+                <div class="RGB">
+                    <ul class="legenda">
+                        <li><p>(R) Vermelho:</p></li>
+                    </ul>
+                    <ul class="inputs">
+                        <li><input id="RR" type="range" min="0" max="255"></li>
+                        <li><input id="RT" type="text" disabled></li>
+                    </ul>
+                </div>
+                <div class="RGB">
+                    <ul class="legenda">
+                        <li><p>(G) Green:</p></li>
+                    </ul>
+                    <ul class="inputs">
+                        <li><input id="GR" type="range" min="0" max="255"></li>
+                        <li><input id="GT" type="text" disabled></li>
+                    </ul>
+                </div>
+                <div class="RGB">
+                    <ul class="legenda">
+                        <li><p>(B) Blue:</p></li>
+                    </ul>
+                    <ul class="inputs">
+                        <li><input id="BR" type="range" min="0" max="255"></li>
+                        <li><input id="BT" type="text" disabled></li>
+                    </ul>
+                </div>
+            <div id="square"></div>
+        </form>
+        <script src="./index.js"></script>
+    </body>
+</html>
