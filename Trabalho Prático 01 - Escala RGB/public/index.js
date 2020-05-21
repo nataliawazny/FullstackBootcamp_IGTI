@@ -1,5 +1,7 @@
 window.addEventListener('load', start)
 
+let red = null,  green = null,  blue = null;
+
 function start() {
     let RR = document.querySelector('#RR')
     RR.addEventListener('input', funcaoRed)
@@ -24,7 +26,7 @@ function start() {
 }
 
 function funcaoRed(event) {
-    let red = event.target.value
+    red = event.target.value
 
     cor(red, green, blue)
 
@@ -33,7 +35,7 @@ function funcaoRed(event) {
 }
 
 function funcaoGreen(event) {
-    let green = event.target.value
+    green = event.target.value
 
     cor(red, green, blue)
 
@@ -42,7 +44,7 @@ function funcaoGreen(event) {
 }
 
 function funcaoBlue(event) {
-    let blue = event.target.value
+    blue = event.target.value
 
     cor(red, green, blue)
 
@@ -51,6 +53,6 @@ function funcaoBlue(event) {
 }
 
 function cor(red, green, blue) {
-    var color = 'rgb(' + red + ',' + green + ',' + blue + ')';
+    let color = 'rgb(' + red + ',' + green + ',' + blue + ')';
     square.style.backgroundColor = color;
 }
