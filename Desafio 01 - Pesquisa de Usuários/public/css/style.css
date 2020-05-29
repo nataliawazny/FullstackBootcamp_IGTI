@@ -1,0 +1,77 @@
+.body,
+html {
+    margin:0 160px;
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+}
+
+.busca {
+    margin-bottom: 50px;
+}
+
+.busca ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#input-texto {
+    width: 950px;
+}
+
+.titulo h3 {
+    text-align: center;
+}
+
+.usuarios {
+    float: left;
+    width: 48%;
+    border: 1px solid;
+    border-color:grey;
+    margin-left: 5px;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.estatistica {
+    float: right;
+    text-align: center;
+    width: 48%;
+    border: 1px solid;
+    border-color:grey;
+    margin-right: 5px;
+    background-color: #f2f2f2;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    border-radius: 50px;
+}
+
+.user ul {
+    display: flex;
+    flex-direction: row;
+}
+
+#textoFiltro {
+    padding-bottom: 30px;
+}
+
+#textoEstatistica {
+    padding-bottom: 30px;
+}
+
+.est {
+    padding-left: 20px;
+    text-align: left;
+}
+
+.user {
+    padding-left: 20px;
+}
+
+.user p {
+    padding-left: 10px;
+}
