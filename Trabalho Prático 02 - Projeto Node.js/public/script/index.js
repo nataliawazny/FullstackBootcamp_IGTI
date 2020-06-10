@@ -32,7 +32,7 @@ function item1() {
         })
         const cidadesJSON = JSON.stringify(cidadesComEstados)
     
-        fs.appendFile(`./estados/${estado.sigla}.json`, cidadesJSON,
+        fs.writeFile(`./estados/${estado.sigla}.json`, cidadesJSON,
         // callback function
         function(err) { 
             if (err) {
