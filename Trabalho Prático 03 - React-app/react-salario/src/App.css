@@ -1,0 +1,30 @@
+.App {
+  margin: 60px;
+}
+
+.react-salario {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.input-field label {
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.calculos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+
+.salario-liquido {
+  width: 18%;
+}
+
+.bar {
+  width: 800px;
+}
+
